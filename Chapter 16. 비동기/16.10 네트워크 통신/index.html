@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    fetch(
+        "https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0"
+    )
+        .then(response => response.json()) // response 안의 body json문자열을 resolve하는 Promise를 return한다.(비동기)
+        .then(console.log);
+</script>
+</body>
+</html>
