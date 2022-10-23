@@ -36,3 +36,5 @@ function sum(num1, num2) { // 함수의 매개변수의 스코프는 블록 안�
 }
 
 // console.log(num1, num2); // ReferenceError: a is not defined
+
+
